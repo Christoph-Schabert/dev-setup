@@ -6,6 +6,6 @@
 ### Install Brewfile
 ```
 brew install rcmdnk/file/brew-file
-brew set_repo --repo https://github.com/Christoph-Schabert/dev-setup
+brew set_repo --repo https://github.com/schabert/dev-setup
 brew file install
 ```
