@@ -9,7 +9,6 @@ brew "pyenv"
 brew "pyenv-virtualenv"
 brew "python"
 brew "python3"
-cask "pycharm" # python IDE
 
 # node
 brew "nodejs"
@@ -48,7 +47,6 @@ brew "wrk" # http benchmark tool a la apache bench (ab)
 # browsers
 cask "google-chrome"
 cask "firefox"
-cask "opera"
 
 # chat/communication
 cask "slack"
@@ -57,8 +55,6 @@ cask "microsoft-teams"
 # developer editors
 cask "atom" # atom editor from github
 cask "visual-studio-code"
-brew "vim" # command line editor for working with text
-cask "macvim" # vim in as mac native application
 
 # developer tools
 cask "docker" # docker4mac for working with images & containers
@@ -70,9 +66,10 @@ cask "kaleidoscope" # great file diff UI
 cask "devdocs" # devdocs.io desktop client for developer documentation a la Dash
 
 # random tools
+tap aws/tap
 cask "awscli" # AWS CLI
+cask "aws-sam-cli" # SAM CLI
 cask "spectacle" # window management
-cask "filezilla" # ftp sftp scp s3 client
 cask "imageoptim" # optimize image size file per drag'n'drop
 cask "kap" # capture screen as video
 cask "flycut" # clipboard manager
